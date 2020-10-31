@@ -1,0 +1,58 @@
+header {
+  height: 100px;
+  vertical-align: top;
+  width: 100%;
+  text-align: center;
+  background: #ff7b62;
+}
+header:hover span {
+  color: white;
+}
+header span {
+  position: relative;
+  margin: 0 auto;
+  top: 30%;
+  font-size: 36px;
+}
+header .admin_btn {
+  font-size: 16px;
+  color: white;
+  background-color: #E3262B;
+  border: 3px solid #fff;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+  opacity: .8;
+  overflow: hidden;
+  position: absolute;
+  right: 0;
+  z-index: 20;
+  float: right;
+  padding: 10px;
+  margin: 10px;
+}
+header .admin_btn:after {
+  background: #fff;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .2;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+          transform: rotate(35deg);
+  -webkit-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 550ms cubic-bezier(0.19, 1, 0.22, 1);
+  width: 50px;
+  z-index: -10;
+}
+header .admin_btn:hover {
+  cursor: pointer;
+}
+header .admin_btn:hover:after {
+  left: 120%;
+  -webkit-transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+  -o-transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+  transition: all 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+}

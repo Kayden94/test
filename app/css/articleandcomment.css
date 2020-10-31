@@ -1,0 +1,83 @@
+.articleandcomment {
+  padding-top: 40px;
+}
+.comments h3 {
+  font-weight: normal;
+  font-size: 32px;
+}
+.comments a {
+  float: right;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+}
+.bg_cm {
+  margin-top: 20px;
+  background-color: #ff7b62;
+  color: #fff;
+  padding: 10px;
+  border: 5px solid #fff;
+  -webkit-border-radius: 10px;
+          border-radius: 10px;
+}
+.comments_content {
+  margin: 10px;
+}
+.comments_content #autor_cm {
+  font-size: 24px;
+}
+.comments_content #comment_text {
+  font-size: 20px;
+  color: #000;
+  margin-top: 10px;
+  margin-left: 20px;
+  line-height: 1.4;
+}
+.comments_content .comments_comment {
+  border: 1px solid #000;
+  margin-bottom: 10px;
+  padding: 10px;
+  -webkit-border-radius: 20px;
+          border-radius: 20px;
+}
+.comments_content .comments_comment:last-child {
+  margin-bottom: 0;
+}
+#comment_add__form h3 {
+  font-weight: normal;
+  font-size: 32px;
+}
+#comment_add__form .form__add_cm {
+  padding: 20px;
+  display: block;
+  width: 100%;
+}
+#comment_add__form .form__cm_name {
+  width: 30%;
+  display: block;
+}
+#comment_add__form .form__cm_name input {
+  width: 100%;
+  min-height: 30px;
+  border: 2px solid grey;
+  margin-bottom: 10px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+  font-size: 20px;
+}
+#comment_add__form .form__cm_text {
+  width: 100%;
+  display: block;
+}
+#comment_add__form .form__cm_text textarea {
+  width: 100%;
+  font-size: 20px;
+  min-height: 100px;
+  border: 2px solid grey;
+  margin-bottom: 10px;
+  padding: 10px;
+  -webkit-border-radius: 5px;
+          border-radius: 5px;
+}
